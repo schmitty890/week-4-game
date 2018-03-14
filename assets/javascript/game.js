@@ -51,11 +51,11 @@ let starWars = {
                 attackPower = character.attackPower,
                 counterAttackPower = character.counterAttackPower;
             html += `
-									<div class="character" data-name="` + name + `" data-hp="` + healthPoints + `" data-ap="` + attackPower + `" data-cap="` + counterAttackPower + `">
-										<p>` + name + `</p>
-										<img src="` + img + `" alt="` + name + `">
-										<p class="hp">` + healthPoints + `</p>
-									</div>`;
+							<div class="character" data-name="` + name + `" data-hp="` + healthPoints + `" data-ap="` + attackPower + `" data-cap="` + counterAttackPower + `">
+								<p>` + name + `</p>
+								<img src="` + img + `" alt="` + name + `">
+								<p class="hp">` + healthPoints + `</p>
+							</div>`;
         }
         $userCharacter.append(html);
     },
